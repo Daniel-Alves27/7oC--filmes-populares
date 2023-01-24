@@ -1,0 +1,25 @@
+.container__filmes {
+    display: flex;
+    flex-direction: column;
+}
+
+.item__filmes {
+    display: flex;
+    width: 800px;
+    height: 200px;
+    background-color: var(--background-lista-filmes);
+    margin: 1em auto;
+    align-items: center;
+    padding-left: 2em;
+    border-radius: 8px;
+}
+
+.item__filmes img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.item__filmes div {
+    display: grid;
+}

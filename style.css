@@ -1,0 +1,16 @@
+@import url(../7oCDesafioDom/css/header.css);
+@import url(../7oCDesafioDom/css/listaDeFilme.css);
+
+:root {
+    --preto: black;
+    --branco: #FFFFFF;
+    --fonte-principal: 'Kumbh Sans';
+    --background-da-pagina: #17162E;
+    --background-barra-pesquisa: #706EA8;
+    --cinza-placeholder: #8A8A8A;
+    --background-lista-filmes: #1D1C3B;
+}
+
+body {
+    background-color: var(--background-da-pagina);
+}
