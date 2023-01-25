@@ -4,8 +4,9 @@
 }
 
 .item__filmes {
-    display: flex;
-    width: 800px;
+    display: grid;
+    grid-template-columns: 15% 30% 55%;
+    width: 850px;
     height: 200px;
     background-color: var(--background-lista-filmes);
     margin: 1em auto;
@@ -22,4 +23,32 @@
 
 .item__filmes div {
     display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    font-family: var(--fonte-principal);
+    color: var(--branco);
+}
+
+.item__filmes div h2 {
+    padding-bottom: 1.5em;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    font-weight: 500;
+}
+
+.item__filmes div span {
+    font-weight: 400;
+    padding-top: 1em;
+}
+
+.item__filmes div span img {
+    width: 20px;
+    height: 15px;
+}
+
+.item__filmes p {
+    color: var(--branco);
+    font-family: var(--fonte-principal);
+    font-size: 14px;
+    line-height: 1.3em;
 }

@@ -14,3 +14,13 @@
 body {
     background-color: var(--background-da-pagina);
 }
+
+footer {
+    text-align: center;
+    padding-top: 2.5em;
+    height: 50px;
+    background-color: var(--background-lista-filmes);
+    font-family: var(--fonte-principal);
+    font-weight: 600;
+    color: var(--branco);
+}
